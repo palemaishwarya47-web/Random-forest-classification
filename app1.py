@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+
 
 
 try:
@@ -102,5 +102,4 @@ if uploaded_file is not None:
     st.subheader("Accuracy")
     st.write(accuracy)
 
-    # Confusion Matrix
    
